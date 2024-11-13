@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		64A501082CE4FEDC00C24B90 /* EnhancedTodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnhancedTodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A5011B2CE4FF1E00C24B90 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,6 +35,8 @@
 			children = (
 				64A5010A2CE4FEDC00C24B90 /* EnhancedTodoList */,
 				64A501092CE4FEDC00C24B90 /* Products */,
+				64A501192CE4FEF000C24B90 /* Views */,
+				64A5011A2CE4FF0600C24B90 /* Model */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,6 +46,21 @@
 				64A501082CE4FEDC00C24B90 /* EnhancedTodoList.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		64A501192CE4FEF000C24B90 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64A5011B2CE4FF1E00C24B90 /* LandingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		64A5011A2CE4FF0600C24B90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
